@@ -18,6 +18,8 @@ const Tickets = ({ TicketsPromice, onTicketClick, taskStatus, resolved, onComple
               key={ticket.id}
               ticket={ticket}
               onClick={onTicketClick}
+              taskStatus={taskStatus} 
+              resolved={resolved} 
             />
           ))}
         </div>

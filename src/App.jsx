@@ -40,6 +40,7 @@ function App() {
           taskStatus={taskStatus}
           resolved={resolved}
           onComplete={handleComplete}
+          
         />
       </Suspense>
     </div>
