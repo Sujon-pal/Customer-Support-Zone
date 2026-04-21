@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue",
+    "description": "User is unable to log into the system even after multiple attempts and password reset. The system shows invalid credentials error.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-04-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment failed",
+    "description": "Customer transaction fails during checkout process even though sufficient balance is available. Card gets declined error repeatedly.",
+    "customer": "Jane Smith",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-04-02"
+  },
+  {
+    "id": 3,
+    "title": "UI bug on dashboard",
+    "description": "Dashboard layout is broken where cards are misaligned and overlapping on smaller screens causing poor user experience.",
+    "customer": "Alex Brown",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-04-03"
+  },
+  {
+    "id": 4,
+    "title": "Password reset not working",
+    "description": "Password reset email is not being received by users even after multiple requests. No email appears in inbox or spam folder.",
+    "customer": "Maria Garcia",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-04-04"
+  },
+  {
+    "id": 5,
+    "title": "Slow website loading",
+    "description": "Website pages are taking unusually long time to load due to possible server or API performance issues affecting user experience.",
+    "customer": "David Lee",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-04-05"
+  },
+  {
+    "id": 6,
+    "title": "Account suspended",
+    "description": "User account has been suspended mistakenly by the system's automated security check even though there is no violation.",
+    "customer": "Sarah Khan",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-04-06"
+  },
+  {
+    "id": 7,
+    "title": "Email not sending",
+    "description": "SMTP configuration failure is preventing system emails from being sent to users including notifications and confirmations.",
+    "customer": "Michael Chen",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-04-07"
+  },
+  {
+    "id": 8,
+    "title": "Mobile responsive issue",
+    "description": "Website layout breaks on mobile devices where elements overlap and text becomes unreadable on small screens.",
+    "customer": "Emily Davis",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-04-08"
+  },
+  {
+    "id": 9,
+    "title": "Data not syncing",
+    "description": "API synchronization between services is failing which results in outdated or missing data across connected systems.",
+    "customer": "Robert Wilson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-04-09"
+  },
+  {
+    "id": 10,
+    "title": "Notification delay",
+    "description": "Push notifications are delayed significantly causing users to receive alerts much later than real-time events.",
+    "customer": "Olivia Martin",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-04-10"
+  },
+
+  {
+    "id": 11,
+    "title": "Profile update error",
+    "description": "Users are unable to update their profile information due to server validation errors during submission.",
+    "customer": "James Taylor",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-04-11"
+  },
+  {
+    "id": 12,
+    "title": "Search not working",
+    "description": "Search functionality returns empty results even when valid data exists in the database.",
+    "customer": "Sophia Moore",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-04-12"
+  },
+  {
+    "id": 13,
+    "title": "File upload error",
+    "description": "Users cannot upload images or documents due to file size validation and server timeout issues.",
+    "customer": "Daniel White",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-04-13"
+  },
+  {
+    "id": 14,
+    "title": "Chat not loading",
+    "description": "Real-time chat feature fails to load conversations and shows loading spinner indefinitely.",
+    "customer": "Isabella Clark",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-04-14"
+  },
+  {
+    "id": 15,
+    "title": "Broken link on homepage",
+    "description": "Footer navigation link redirects to a 404 error page instead of the correct destination.",
+    "customer": "Ethan Lewis",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-04-15"
+  },
+  {
+    "id": 16,
+    "title": "Security alert false positive",
+    "description": "System incorrectly flags normal user activity as suspicious security threat.",
+    "customer": "Ava Hall",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-04-16"
+  },
+  {
+    "id": 17,
+    "title": "Invoice not generated",
+    "description": "Billing system fails to generate invoice after successful payment confirmation.",
+    "customer": "Benjamin Young",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-04-17"
+  },
+  {
+    "id": 18,
+    "title": "Dark mode issue",
+    "description": "Dark mode toggle does not apply theme properly across all UI components.",
+    "customer": "Mia King",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-04-18"
+  },
+  {
+    "id": 19,
+    "title": "API timeout error",
+    "description": "API requests frequently timeout causing failure in loading data from backend services.",
+    "customer": "Lucas Scott",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-04-19"
+  },
+  {
+    "id": 20,
+    "title": "Logout issue",
+    "description": "Users remain logged in even after clicking logout due to session persistence bug.",
+    "customer": "Charlotte Green",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-04-20"
+  }
+]
