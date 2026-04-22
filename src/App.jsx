@@ -31,7 +31,7 @@ function App() {
     <div className="min-h-screen bg-base-200">
       
       {/* Navbar */}
-      <div className="px-4 sm:px-6 md:px-10 lg:px-20">
+      <div className="">
         <Navbar />
       </div>
 

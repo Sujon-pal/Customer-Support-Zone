@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = ({ taskStatus, resolved }) => {
   return (
-    <div className="px-4 sm:px-6 md:px-10 lg:px-16 py-6 sm:py-8">
+    <div className=" sm:px-6 md:px-5  py-6 sm:py-8 md:mt-15 mt-9">
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
         

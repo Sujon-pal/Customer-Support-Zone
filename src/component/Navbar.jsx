@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-white px-4 sm:px-6 md:px-10 lg:px-16 shadow-sm">
+  <div className="navbar w-full bg-white fixed top-0 left-0 z-50 shadow-sm ">
 
       {/* Left */}
       <div className="navbar-start">
@@ -48,12 +48,12 @@ const Navbar = () => {
       {/* Center Menu (Desktop only) */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal gap-3 text-sm font-semibold text-gray-700">
-          <li><a className="hover:text-black">Home</a></li>
-          <li><a className="hover:text-black">FAQ</a></li>
-          <li><a className="hover:text-black">Changelog</a></li>
-          <li><a className="hover:text-black">Blog</a></li>
-          <li><a className="hover:text-black">Download</a></li>
-          <li><a className="hover:text-black">Contact</a></li>
+           <li><a href="#home" className="hover:text-black">Home</a></li>
+          <li><a href="#faq" className="hover:text-black">FAQ</a></li>
+          <li><a href="#resolved" className="hover:text-black">Resolved Task</a></li>
+          <li><a href="#status" className="hover:text-black">Task Status</a></li>
+          <li><a href="#download" className="hover:text-black">Download</a></li>
+          <li><a href="#contact" className="hover:text-black">Contact</a></li>
         </ul>
       </div>
 

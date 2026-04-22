@@ -13,7 +13,7 @@ const Tickets = ({
   const userTickets = use(TicketsPromice);
 
   return (
-    <div className="px-4 sm:px-6 md:px-10 lg:px-16">
+    <div className="px-4 sm:px-6 md:px-6 ">
       
       <h1 className="pb-4 text-lg sm:text-xl md:text-2xl font-bold text-gray-700">
         Customer Tickets

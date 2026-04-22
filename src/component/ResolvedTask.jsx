@@ -2,7 +2,7 @@ import React from "react";
 
 const ResolvedTask = ({ resolved }) => {
   return (
-    <div className="bg-white border rounded-xl p-4 sm:p-5 shadow-sm">
+    <div id="resolved" className="bg-white border rounded-xl p-4 sm:p-5 shadow-sm">
       
       <h2 className="font-bold text-base sm:text-lg text-gray-700 mb-3 sm:mb-4">
         Resolved Task
