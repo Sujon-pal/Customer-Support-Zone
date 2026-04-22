@@ -32,8 +32,8 @@ const Navbar = () => {
           >
             <li><a>Home</a></li>
             <li><a>FAQ</a></li>
-            <li><a>Changelog</a></li>
-            <li><a>Blog</a></li>
+            <li><a>Task Status</a></li>
+            <li><a>Resolved Task</a></li>
             <li><a>Download</a></li>
             <li><a>Contact</a></li>
           </ul>
