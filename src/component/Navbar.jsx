@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-  <div className="navbar w-full bg-white fixed top-0 left-0 z-50 shadow-sm ">
+  <div className="navbar w-full bg-white fixed top-0 left-0 z-50 shadow-sm px-3 sm:px-6 md:px-10 lg:px-25">
 
       {/* Left */}
       <div className="navbar-start">
