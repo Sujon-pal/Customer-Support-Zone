@@ -2,10 +2,12 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-white px-6 lg:px-16 shadow-2xs  ">
-      
+    <div className="navbar bg-white px-4 sm:px-6 md:px-10 lg:px-16 shadow-sm">
+
       {/* Left */}
       <div className="navbar-start">
+        
+        {/* Mobile Menu */}
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -24,10 +26,9 @@ const Navbar = () => {
             </svg>
           </div>
 
-          {/* Mobile Menu */}
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-2xl bg-white rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-xl bg-white rounded-box w-52"
           >
             <li><a>Home</a></li>
             <li><a>FAQ</a></li>
@@ -39,15 +40,14 @@ const Navbar = () => {
         </div>
 
         {/* Logo */}
-        <a className="text-lg font-semibold text-gray-700">
+        <a className="text-base sm:text-lg md:text-xl font-semibold text-gray-700">
           CS — Ticket System
         </a>
       </div>
 
-    <div className="flex gap-10">
-          {/* Center Menu */}
+      {/* Center Menu (Desktop only) */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal gap-2 text-sm font-semibold text-gray-700">
+        <ul className="menu menu-horizontal gap-3 text-sm font-semibold text-gray-700">
           <li><a className="hover:text-black">Home</a></li>
           <li><a className="hover:text-black">FAQ</a></li>
           <li><a className="hover:text-black">Changelog</a></li>
@@ -59,11 +59,11 @@ const Navbar = () => {
 
       {/* Right */}
       <div className="navbar-end">
-        <button className="btn btn-primary bg-linear-to-r from-violet-800 to-fuchsia-300 border-none text-white px-5">
+        <button className="btn btn-primary bg-gradient-to-r from-violet-800 to-fuchsia-400 border-none text-white px-3 sm:px-4 md:px-5 text-xs sm:text-sm md:text-base">
           + New Ticket
         </button>
       </div>
-    </div>
+
     </div>
   );
 };
